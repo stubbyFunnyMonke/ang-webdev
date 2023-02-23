@@ -2,8 +2,12 @@
 
 ### TODO:
 - add pictures
-- add information
-- literally add everything on god please i need help
+- home page
+- about page: history, faculty/administrators/facilities
+- news: everything (see the g docs)
+- admissions
+- contact us
+- page polishing
 
 ### For reference:
 - Google Doc with links: https://docs.google.com/document/d/158xxSXJAJ6VYu2UB5OmQHgKwcXPlh5Gi1YUgq9iXi_w/edit
