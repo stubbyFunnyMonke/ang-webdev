@@ -6,7 +6,6 @@
 - about page: history, faculty/administrators/facilities
 - news: everything (see the g docs)
 - admissions
-- contact us
 - page polishing
 
 ### For reference:
