@@ -19,6 +19,7 @@
 ### Contributions:
 - Florenzo Amor
   - mostly everything
+  - isims portal
 - Aliyah Villaraiz
   - curriculum
 - Zam Pallones
