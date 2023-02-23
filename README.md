@@ -16,3 +16,12 @@
 - Deric Punzalan
 - Aaliah Santos
 
+### Contributions:
+- Florenzo Amor
+  - mostly everything
+- Aliyah Villaraiz
+  - curriculum
+- Zam Pallones
+  - mission & vision
+- Deric Punzalan
+- Aaliah Santos
