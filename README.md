@@ -23,6 +23,7 @@
 - Florenzo Amor
   - mostly everything
   - isims portal
+  - contact us page
 - Aliyah Villaraiz
   - curriculum
 - Zam Pallones
