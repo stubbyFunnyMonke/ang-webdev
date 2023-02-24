@@ -27,6 +27,7 @@
   - about: administrators
 - Aliyah Villaraiz
   - curriculum
+  - assets
 - Zam Pallones
   - about: mission & vision
 - Deric Punzalan
