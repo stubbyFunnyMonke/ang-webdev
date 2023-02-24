@@ -2,8 +2,7 @@
 
 ### TODO:
 - add pictures
-- home page
-- about page: history, faculty/administrators/facilities
+- about page: facilities
 - news: everything (see the g docs)
 - admissions
 - page polishing
