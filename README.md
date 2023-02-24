@@ -29,4 +29,5 @@
 - Zam Pallones
   - mission & vision
 - Deric Punzalan
+  - main admissions page
 - Aaliah Santos
