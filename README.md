@@ -29,7 +29,8 @@
 - Aliyah Villaraiz
   - curriculum
 - Zam Pallones
-  - mission & vision
+  - about: mission & vision
 - Deric Punzalan
   - main admissions page
 - Aaliah Santos
+  - home page
