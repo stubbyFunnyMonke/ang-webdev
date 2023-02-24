@@ -24,6 +24,8 @@
   - mostly everything
   - isims portal
   - contact us page
+  - about: history
+  - about: administrators
 - Aliyah Villaraiz
   - curriculum
 - Zam Pallones
