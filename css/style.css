@@ -191,6 +191,7 @@
     border-radius: 40px;
     font-size: 20px;
     transition: .5s;
+    z-index: 9999;
 }
 
 .header-carousel .owl-nav .owl-prev:hover,
@@ -446,4 +447,13 @@
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+
+.black {
+    background-color: black;
+    height: 899px;
+    width: 100%;
+    position: absolute;
+    opacity: 0.5;
+    transform: translateY(-100%);
 }
