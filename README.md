@@ -25,6 +25,7 @@
   - contact us page
   - about: history
   - about: administrators
+  - home page
 - Aliyah Villaraiz
   - curriculum
   - assets
