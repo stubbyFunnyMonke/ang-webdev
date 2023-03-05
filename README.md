@@ -26,6 +26,7 @@
   - about: history
   - about: administrators
   - home page
+  - navigation bar & footer
 - Aliyah Villaraiz
   - curriculum
   - assets
