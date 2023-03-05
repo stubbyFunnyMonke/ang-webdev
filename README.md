@@ -30,6 +30,7 @@
 - Aliyah Villaraiz
   - curriculum
   - assets
+  - news: latest
 - Zam Pallones
   - about: mission & vision
 - Deric Punzalan
