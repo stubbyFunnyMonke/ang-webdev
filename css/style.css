@@ -239,7 +239,7 @@
 
 
 /*** About ***/
-.about-img img, .about-img-alt img {
+.about-img img, .about-img-alt img, .about-img video {
     position: relative;
     z-index: 2;
 }
