@@ -162,6 +162,11 @@
 }
 
 
+.index-icons img {
+    max-height: 100px;
+    max-width: 100px;
+}
+
 /*** Header ***/
 @media (min-width: 992px) {
     .header {
