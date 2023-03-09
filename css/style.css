@@ -190,7 +190,7 @@
     transition: .5s;
     z-index: 9999;
     top: calc(50% - 25px);
-    text-shadow: 0px 0px 7px black, 0px 0px 7px black, 0px 0px 7px black, 0px 0px 7px black;
+    background: var(--primary);
 }
 
 .header-carousel .owl-nav .owl-next {
@@ -203,7 +203,7 @@
 
 .header-carousel .owl-nav .owl-prev:hover,
 .header-carousel .owl-nav .owl-next:hover {
-    text-shadow: 0px 0px 2px white, 0px 0px 2px white, 0px 0px 2px white;
+    background: var(--dark);
 }
 
 @media (max-width: 768px) {
@@ -222,7 +222,10 @@
     width: auto;
     position: absolute;
     z-index: 1;
-    text-shadow: 0px 0px 20px black, 0px 0px 20px black, 0px 0px 20px black;
+}
+
+.fancy-text-outline-primary {
+    text-shadow: 5px 5px 0px var(--primary), 7px 7px 0px var(--primary), 3px 3px 0px var(--primary), -2px -2px 0px var(--primary), -2px 2px 0px var(--primary), 2px -2px 0px var(--primary), 2px 2px 0px var(--primary);
 }
 
 
