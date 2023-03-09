@@ -20,7 +20,6 @@
 
 ### Contributions:
 - Florenzo Amor
-  - mostly everything
   - isims portal
   - contact us page
   - about: history
