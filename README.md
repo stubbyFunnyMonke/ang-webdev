@@ -20,11 +20,13 @@
 
 ### Contributions:
 - Florenzo Amor
+  - javascript
+  - css
   - isims portal
   - contact us page
   - about: history
   - about: administrators
-  - home page
+  - home page latest version
   - navigation bar & footer
 - Aliyah Villaraiz
   - curriculum
@@ -34,5 +36,10 @@
   - about: mission & vision
 - Deric Punzalan
   - main admissions page
+  - another main admissions page
 - Aaliah Santos
   - home page
+  
+ 
+### special thanks:
+- si malantis
