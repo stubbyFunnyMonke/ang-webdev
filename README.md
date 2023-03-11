@@ -20,15 +20,15 @@
 
 ### Contributions:
 - Florenzo Amor
-  - javascript
-  - css
+  - javascript modification
+  - css modification
   - isims portal
   - contact us page
   - about: history
   - about: administrators
   - home page latest version
   - navigation bar & footer
-- Aliyah Villaraiz
+- Aliyah Villaraiz (sick)
   - curriculum
   - assets
   - news: latest
