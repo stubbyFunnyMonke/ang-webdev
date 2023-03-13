@@ -15,7 +15,6 @@
     z-index: 99;
 }
 
-
 /*** Spinner ***/
 #spinner {
     opacity: 0;
@@ -237,7 +236,6 @@
 .custom-row:nth-child(2n) .col-sm-6:first-child {
     order: 2;
 }
-
 
 /*** Icon ***/
 .icon {
