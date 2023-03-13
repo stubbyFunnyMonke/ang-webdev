@@ -29,6 +29,7 @@
   - home page latest version
   - navigation bar & footer
   - php implementation
+  - news: latest overhaul
 - Aliyah Villaraiz (sick)
   - curriculum
   - assets
