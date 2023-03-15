@@ -30,6 +30,7 @@
   - navigation bar & footer
   - php implementation
   - news: latest overhaul
+  - news: announcements
 - Aliyah Villaraiz (sick)
   - curriculum
   - assets
