@@ -136,13 +136,13 @@
         <!-- Search End -->
         <!-- Latest of News -->
         <div class="container-fluid mb-5 wow fadeIn text-center" data-wow-delay="0.1s" style="padding: 35px;">
-            <div class="display-5 animated fadeIn">
+            <div class="display-5 animated fadeInUp">
                 <h1 class="mb-3 text-center wow fadeIn">Official Announcements</h1>
-                <p class="text-center wow fadeIn">Here, you can find iACADEMY's official announcements.</p>
+                <p class="fs-4 text-center wow fadeIn">Here, you can find iACADEMY's official announcements.</p>
             </div>
         </div>
 
-        <div class="container-fluid m-3 m-lg-5">
+        <div class="container-fluid wow fadeInUp m-3 m-lg-5">
             <!-- Filter Button -->
 
             <p class="fs-3 text-primary d-inline"><b>Filter by: </b></p>
@@ -152,37 +152,78 @@
                     <span class="caret"></span>
                 </button>
                 <ul class="dropdown-menu" id="filter-list">
-                    <li><a class="m-2 filter-item" href="#">All</a></li>
-                    <li><a class="m-2 filter-item" href="#">Admissions</a></li>
-                    <li><a class="m-2 filter-item" href="#">Registrar</a></li>
-                    <li><a class="m-2 filter-item" href="#">Finance</a></li>
-                    <li><a class="m-2 filter-item" href="#">SHS - Academics</a></li>
-                    <li><a class="m-2 filter-item" href="#">OSAS</a></li>
+                    <li><a class="m-2 filter-item" href="javascript:;">All</a></li>
+                    <li><a class="m-2 filter-item" href="javascript:;">General</a></li>
+                    <li><a class="m-2 filter-item" href="javascript:;">Admissions</a></li>
+                    <li><a class="m-2 filter-item" href="javascript:;">Registrar</a></li>
+                    <li><a class="m-2 filter-item" href="javascript:;">Finance</a></li>
+                    <li><a class="m-2 filter-item" href="javascript:;">SHS - Academics</a></li>
+                    <li><a class="m-2 filter-item" href="javascript:;">OSAS</a></li>
                 </ul>
             </div>
         </div>
+
         <!-- Paginated List -->
+
+        <p class="text-center" id="missing-message">It appears that there are no announcements from this department...</p>
+
         <ul class="m-3 m-lg-5" id="paginated-list" aria-live="polite" style="list-style-type:none;padding:0;">
             <li class="accordion wow fadeInUp">
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingOne">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                            March
+                    <h2 class="accordion-header" id="flush-heading1">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapseOne">
+                            March - 2023
                         </button>
                     </h2>
-                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent=".accordion">
+                    <div id="flush-collapse1" class="accordion-collapse collapse" aria-labelledby="flush-heading1" data-bs-parent=".accordion">
+                        <!--this is where to put all that fancy stuff-->
+                        <div class="accordion-body">
+                            <ul class="list-accordion" style="list-style-type:none;padding:0;">
+                                <!--nothing-->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </li>
+            <li class="accordion wow fadeInUp">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapseOne">
+                            February - 2023
+                        </button>
+                    </h2>
+                    <div id="flush-collapse2" class="accordion-collapse collapse" aria-labelledby="flush-heading2" data-bs-parent=".accordion">
+                        <!--this is where to put all that fancy stuff-->
+                        <div class="accordion-body">
+                            <ul class="list-accordion" style="list-style-type:none;padding:0;">
+                                <!--nothing-->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </li>
+            <li class="accordion wow fadeInUp">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading3">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapseOne">
+                            January - 2023
+                        </button>
+                    </h2>
+                    <div id="flush-collapse3" class="accordion-collapse collapse" aria-labelledby="flush-heading1" data-bs-parent=".accordion">
                         <!--this is where to put all that fancy stuff-->
                         <div class="accordion-body">
                             <ul class="list-accordion" style="list-style-type:none;padding:0;">
                                 <li aria-label="Registrar" class="list-item-accordion">
                                     <div class="row g-5 justify-content-center">
                                         <div class="col-3 col-lg-1 text-center" data-wow-delay="0.5s">
-                                            <h1 class="fs-4 mb-4">MON</h1>
-                                            <h1 class="fs-1 mb-4 fancy-text-outline-primary text-white">13</h1>
+                                            <h1 class="fs-4 mb-4">THU</h1>
+                                            <h1 class="fs-1 mb-4 fancy-text-outline-primary text-white">19</h1>
                                         </div>
                                         <div class="col-8 col-lg-11 text-start" data-wow-delay="0.5s">
                                             <p class="text-black-50">Registrar</p>
-                                            <p class="text-primary">TERM 3 AY 2022-2023: ENROLLMENT DATES FOR COLLEGE CONTINUING STUDENTS</p>
+                                            <p class="text-primary">Application for Graduation, 1st & 2nd Term SY2022-2023</p>
                                             <a href="#" class="btn btn-primary">Read</a>
                                         </div>
                                     </div>
@@ -191,27 +232,300 @@
                         </div>
                     </div>
                 </div>
+                <br>
+            </li>
+            <li class="accordion wow fadeInUp">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading4">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapseOne">
+                            December - 2022
+                        </button>
+                    </h2>
+                    <div id="flush-collapse4" class="accordion-collapse collapse" aria-labelledby="flush-heading1" data-bs-parent=".accordion">
+                        <!--this is where to put all that fancy stuff-->
+                        <div class="accordion-body">
+                            <ul class="list-accordion" style="list-style-type:none;padding:0;">
+                                <!--nothing lol-->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </li>
+            <li class="accordion wow fadeInUp">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading5">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collapseOne">
+                            November - 2022
+                        </button>
+                    </h2>
+                    <div id="flush-collapse5" class="accordion-collapse collapse" aria-labelledby="flush-heading5" data-bs-parent=".accordion">
+                        <!--this is where to put all that fancy stuff-->
+                        <div class="accordion-body">
+                            <ul class="list-accordion" style="list-style-type:none;padding:0;">
+                                <!--nothing-->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </li>
+            <li class="accordion wow fadeInUp">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading6">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse6" aria-expanded="false" aria-controls="flush-collapseOne">
+                            October - 2022
+                        </button>
+                    </h2>
+                    <div id="flush-collapse6" class="accordion-collapse collapse" aria-labelledby="flush-heading6" data-bs-parent=".accordion">
+                        <!--this is where to put all that fancy stuff-->
+                        <div class="accordion-body">
+                            <ul class="list-accordion" style="list-style-type:none;padding:0;">
+                                <li aria-label="General" class="list-item-accordion">
+                                    <div class="row g-5 justify-content-center">
+                                        <div class="col-3 col-lg-1 text-center" data-wow-delay="0.5s">
+                                            <h1 class="fs-4 mb-4">TUE</h1>
+                                            <h1 class="fs-1 mb-4 fancy-text-outline-primary text-white">25</h1>
+                                        </div>
+                                        <div class="col-8 col-lg-11 text-start" data-wow-delay="0.5s">
+                                            <p class="text-black-50">General</p>
+                                            <p class="text-primary">ADVISORY: iACADEMY Nexus Campus Closed on October 26 for Disinfection and Sanitation</p>
+                                            <a href="#" class="btn btn-primary">Read</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </li>
+            <li class="accordion wow fadeInUp">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading7">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse7" aria-expanded="false" aria-controls="flush-collapseOne">
+                            September - 2022
+                        </button>
+                    </h2>
+                    <div id="flush-collapse7" class="accordion-collapse collapse" aria-labelledby="flush-heading7" data-bs-parent=".accordion">
+                        <!--this is where to put all that fancy stuff-->
+                        <div class="accordion-body">
+                            <ul class="list-accordion" style="list-style-type:none;padding:0;">
+                                <!--nothing-->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </li>
+            <li class="accordion wow fadeInUp">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading8">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse8" aria-expanded="false" aria-controls="flush-collapseOne">
+                            August - 2022
+                        </button>
+                    </h2>
+                    <div id="flush-collapse8" class="accordion-collapse collapse" aria-labelledby="flush-heading8" data-bs-parent=".accordion">
+                        <!--this is where to put all that fancy stuff-->
+                        <div class="accordion-body">
+                            <ul class="list-accordion" style="list-style-type:none;padding:0;">
+                                <!--nothing again-->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </li>
+            <li class="accordion wow fadeInUp">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading9">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse9" aria-expanded="false" aria-controls="flush-collapseOne">
+                            July - 2022
+                        </button>
+                    </h2>
+                    <div id="flush-collapse9" class="accordion-collapse collapse" aria-labelledby="flush-heading9" data-bs-parent=".accordion">
+                        <!--this is where to put all that fancy stuff-->
+                        <div class="accordion-body">
+                            <ul class="list-accordion" style="list-style-type:none;padding:0;">
+                                <li aria-label="SHS - Academics" class="list-item-accordion">
+                                    <div class="row g-5 justify-content-center">
+                                        <div class="col-3 col-lg-1 text-center" data-wow-delay="0.5s">
+                                            <h1 class="fs-4 mb-4">FRI</h1>
+                                            <h1 class="fs-1 mb-4 fancy-text-outline-primary text-white">15</h1>
+                                        </div>
+                                        <div class="col-8 col-lg-11 text-start" data-wow-delay="0.5s">
+                                            <p class="text-black-50">SHS - Academics</p>
+                                            <p class="text-primary">Official Statement on the DepEd's Directives to Face-to-Face Classes</p>
+                                            <a href="#" class="btn btn-primary">Read</a>
+                                        </div>
+                                    </div>
+                                    <br>
+                                </li>
+                                <li aria-label="Registrar" class="list-item-accordion">
+                                    <div class="row g-5 justify-content-center">
+                                        <div class="col-3 col-lg-1 text-center" data-wow-delay="0.5s">
+                                            <h1 class="fs-4 mb-4">FRI</h1>
+                                            <h1 class="fs-1 mb-4 fancy-text-outline-primary text-white">8</h1>
+                                        </div>
+                                        <div class="col-8 col-lg-11 text-start" data-wow-delay="0.5s">
+                                            <p class="text-black-50">Registrar</p>
+                                            <p class="text-primary">Enrollment Dates for SHS Continuing Students, SY22-23 1ST SEM</p>
+                                            <a href="#" class="btn btn-primary">Read</a>
+                                        </div>
+                                    </div>
+                                    <br>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </li>
+            <li class="accordion wow fadeInUp">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading10">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse10" aria-expanded="false" aria-controls="flush-collapseOne">
+                            June - 2022
+                        </button>
+                    </h2>
+                    <div id="flush-collapse10" class="accordion-collapse collapse" aria-labelledby="flush-heading10" data-bs-parent=".accordion">
+                        <!--this is where to put all that fancy stuff-->
+                        <div class="accordion-body">
+                            <ul class="list-accordion" style="list-style-type:none;padding:0;">
+                                <li aria-label="Finance" class="list-item-accordion">
+                                    <div class="row g-5 justify-content-center">
+                                        <div class="col-3 col-lg-1 text-center" data-wow-delay="0.5s">
+                                            <h1 class="fs-4 mb-4">WED</h1>
+                                            <h1 class="fs-1 mb-4 fancy-text-outline-primary text-white">8</h1>
+                                        </div>
+                                        <div class="col-8 col-lg-11 text-start" data-wow-delay="0.5s">
+                                            <p class="text-black-50">Finance</p>
+                                            <p class="text-primary">Settlement of Outstanding Balance and Credential Fee</p>
+                                            <a href="#" class="btn btn-primary">Read</a>
+                                        </div>
+                                    </div>
+                                    <br>
+                                </li>
+                                <li aria-label="Finance" class="list-item-accordion">
+                                    <div class="row g-5 justify-content-center">
+                                        <div class="col-3 col-lg-1 text-center" data-wow-delay="0.5s">
+                                            <h1 class="fs-4 mb-4">FRI</h1>
+                                            <h1 class="fs-1 mb-4 fancy-text-outline-primary text-white">3</h1>
+                                        </div>
+                                        <div class="col-8 col-lg-11 text-start" data-wow-delay="0.5s">
+                                            <p class="text-black-50">Finance</p>
+                                            <p class="text-primary">Settlement of Outstanding Balance and Other school fees</p>
+                                            <a href="#" class="btn btn-primary">Read</a>
+                                        </div>
+                                    </div>
+                                    <br>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </li>
+            <li class="accordion wow fadeInUp">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading11">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse11" aria-expanded="false" aria-controls="flush-collapseOne">
+                            April - 2022
+                        </button>
+                    </h2>
+                    <div id="flush-collapse11" class="accordion-collapse collapse" aria-labelledby="flush-heading11" data-bs-parent=".accordion">
+                        <!--this is where to put all that fancy stuff-->
+                        <div class="accordion-body">
+                            <ul class="list-accordion" style="list-style-type:none;padding:0;">
+                                <li aria-label="Registrar" class="list-item-accordion">
+                                    <div class="row g-5 justify-content-center">
+                                        <div class="col-3 col-lg-1 text-center" data-wow-delay="0.5s">
+                                            <h1 class="fs-4 mb-4">SAT</h1>
+                                            <h1 class="fs-1 mb-4 fancy-text-outline-primary text-white">23</h1>
+                                        </div>
+                                        <div class="col-8 col-lg-11 text-start" data-wow-delay="0.5s">
+                                            <p class="text-black-50">Registrar</p>
+                                            <p class="text-primary">Shift to Email Advising, April 25, 2022</p>
+                                            <a href="#" class="btn btn-primary">Read</a>
+                                        </div>
+                                    </div>
+                                    <br>
+                                </li>
+                                <li aria-label="Registrar" class="list-item-accordion">
+                                    <div class="row g-5 justify-content-center">
+                                        <div class="col-3 col-lg-1 text-center" data-wow-delay="0.5s">
+                                            <h1 class="fs-4 mb-4">SAT</h1>
+                                            <h1 class="fs-1 mb-4 fancy-text-outline-primary text-white">23</h1>
+                                        </div>
+                                        <div class="col-8 col-lg-11 text-start" data-wow-delay="0.5s">
+                                            <p class="text-black-50">Registrar</p>
+                                            <p class="text-primary">Online Re-admission Process</p>
+                                            <a href="#" class="btn btn-primary">Read</a>
+                                        </div>
+                                    </div>
+                                    <br>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </li>
+            <li class="accordion wow fadeInUp">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading12">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse12" aria-expanded="false" aria-controls="flush-collapseOne">
+                            March - 2022
+                        </button>
+                    </h2>
+                    <div id="flush-collapse12" class="accordion-collapse collapse" aria-labelledby="flush-heading12" data-bs-parent=".accordion">
+                        <!--this is where to put all that fancy stuff-->
+                        <div class="accordion-body">
+                            <ul class="list-accordion" style="list-style-type:none;padding:0;">
+                                <!--nothing-->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </li>
+            <li class="accordion wow fadeInUp">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading13">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse13" aria-expanded="false" aria-controls="flush-collapseOne">
+                            February - 2022
+                        </button>
+                    </h2>
+                    <div id="flush-collapse13" class="accordion-collapse collapse" aria-labelledby="flush-heading13" data-bs-parent=".accordion">
+                        <!--this is where to put all that fancy stuff-->
+                        <div class="accordion-body">
+                            <ul class="list-accordion" style="list-style-type:none;padding:0;">
+                                <!--nothing-->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </li>
+            <li class="accordion wow fadeInUp">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading14">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse14" aria-expanded="false" aria-controls="flush-collapseOne">
+                            January - 2022
+                        </button>
+                    </h2>
+                    <div id="flush-collapse14" class="accordion-collapse collapse" aria-labelledby="flush-heading14" data-bs-parent=".accordion">
+                        <!--this is where to put all that fancy stuff-->
+                        <div class="accordion-body">
+                            <ul class="list-accordion" style="list-style-type:none;padding:0;">
+                                <!--nothing-->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <br
             </li>
         </ul>
-
-        <nav aria-label="...">
-            <ul class="pagination justify-content-center">
-                <li class="page-item">
-                    <button class="page-link" href="#pagination" aria-label="Previous" id="prev-button">
-                        <span aria-hidden="true">&laquo;</span>
-                        <span class="sr-only">Previous</span>
-                    </button>
-                </li>
-                <ul class="pagination" id="pagination-numbers">
-                </ul>
-                <li class="page-item">
-                    <button class="page-link" href="#pagination" aria-label="Next" id="next-button">
-                        <span aria-hidden="true">&raquo;</span>
-                        <span class="sr-only">Next</span>
-                    </button>
-                </li>
-            </ul>
-        </nav>
 
         <div class="container-fluid bg-transparent mb-5 wow fadeIn" id="autoscroll" data-wow-delay="0.1s" style="padding: 35px;"></div>
 
@@ -290,118 +604,6 @@
     <script src="js/main.js"></script>
 
     <script>
-        const paginationNumbers = document.getElementById("pagination-numbers");
-        const paginatedList = document.getElementById("paginated-list");
-        const listItems = paginatedList.querySelectorAll("li");
-        const nextButton = document.getElementById("next-button");
-        const prevButton = document.getElementById("prev-button");
-        
-        const paginationLimit = 3;
-        const pageCount = Math.ceil(listItems.length / paginationLimit);
-        let currentPage;
-
-        const appendPageNumber = (index) => {
-            const pageNumber = document.createElement("li");
-            pageNumber.className = "page-item";
-
-            const pageLink = document.createElement("button");
-            pageLink.className = "page-link pagination-number";
-            pageLink.innerHTML = index;
-            pageLink.setAttribute("page-index", index);
-            pageLink.setAttribute("href", "#pagination");
-            pageNumber.setAttribute("aria-label", "Page " + index);
-            pageNumber.appendChild(pageLink);
-            paginationNumbers.appendChild(pageNumber);
-        };
-        const getPaginationNumbers = () => {
-            for (let i = 1; i <= pageCount; i++) {
-                appendPageNumber(i);
-            }
-        };
-
-        const disableButton = (button) => {
-            button.classList.add("disabled");
-            button.setAttribute("disabled", true);
-        };
-        const enableButton = (button) => {
-            button.classList.remove("disabled");
-            button.removeAttribute("disabled");
-        };
-        const handlePageButtonsStatus = () => {
-            if (currentPage === 1) {
-                disableButton(prevButton);
-            } else {
-                enableButton(prevButton);
-            }
-            if (pageCount === currentPage) {
-                disableButton(nextButton);
-            } else {
-                enableButton(nextButton);
-            }
-        };
-
-        const handleActivePageNumber = () => {
-            document.querySelectorAll(".pagination-number").forEach((button) => {
-                button.parentElement.classList.remove("active");
-
-                const pageIndex = Number(button.getAttribute("page-index"));
-                if (pageIndex == currentPage) {
-                    button.parentElement.classList.add("active");
-                }
-            });
-        };
-
-        const setCurrentPage = async (pageNum) => {
-            currentPage = pageNum;
-
-            handlePageButtonsStatus();
-            handleActivePageNumber();
-
-            const prevRange = (pageNum - 1) * paginationLimit;
-            const currRange = pageNum * paginationLimit;
-
-            listItems.forEach((item, index) => {
-                if (item.classList.contains('accordion')) {
-                    item.setAttribute("hidden", true);
-                    if (index >= prevRange && index < currRange) {
-                        item.removeAttribute("hidden");
-                    }
-                };
-            });
-        };
-
-        window.addEventListener("load", () => {
-            getPaginationNumbers();
-            setCurrentPage(1);
-
-            prevButton.addEventListener("click", () => {
-                filterListMethod();
-                hideListMethod();
-                setCurrentPage(currentPage - 1);
-                document.getElementById("autoscroll").scrollIntoView(false);
-            });
-            nextButton.addEventListener("click", () => {
-                filterListMethod();
-                hideListMethod();
-                setCurrentPage(currentPage + 1);
-                document.getElementById("autoscroll").scrollIntoView(false);               
-            });
-
-            document.querySelectorAll(".pagination-number").forEach((button) => {
-                const pageIndex = Number(button.getAttribute("page-index"));
-                if (pageIndex) {
-                    button.addEventListener("click", () => {
-                        filterListMethod();
-                        hideListMethod();
-                        setCurrentPage(pageIndex);
-                        document.getElementById("autoscroll").scrollIntoView(false);                
-                    });
-                }
-            });
-        });
-    </script>
-
-    <script>
         const filterButton = document.getElementById("filter-button");
         const filterList = document.getElementById("paginated-list");
         const filterListItems = filterList.querySelectorAll("li");
@@ -445,6 +647,20 @@
             });
         };
 
+        const missingMessageMethod = () => {
+            const missingMessage = document.getElementById("missing-message");
+
+            let notAllHidden = false;
+
+            filterListItems.forEach((item) => {
+                if (item.classList.contains('accordion') && item.getAttribute("hidden") == null) {
+                    notAllHidden = true;
+                }
+            });
+
+            if (notAllHidden == true) { missingMessage.setAttribute("hidden", true) } else { missingMessage.removeAttribute("hidden")  }
+        };
+
         window.addEventListener("load", () => {
 
             currentFilter = "All";
@@ -452,6 +668,7 @@
 
             filterListMethod();
             hideListMethod();
+            missingMessageMethod();
 
             document.querySelectorAll(".filter-item").forEach((button) => {
                 button.addEventListener("click", () => {
@@ -459,6 +676,7 @@
                     filterButton.innerHTML = button.innerHTML;
                     filterListMethod();
                     hideListMethod();
+                    missingMessageMethod();
                 });
             });
         });
