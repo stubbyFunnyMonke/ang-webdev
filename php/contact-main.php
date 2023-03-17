@@ -1,13 +1,41 @@
 <?php
+function setInnerHTML($element, $html)
+{
+    $fragment = $element->ownerDocument->createDocumentFragment();
+    $fragment->appendXML($html);
+    while ($element->hasChildNodes())
+        $element->removeChild($element->firstChild);
+    $element->appendChild($fragment);
+}
 
 $errors = [];
 $errorMessage = '';
+
+$htmlContent = file_get_contents("../email-contact.html");
 
 if (!empty($_POST)) {
    $name = $_POST['name'];
    $email = $_POST['email'];
    $message = $_POST['message'];
    $emailSubject = $_POST['subject'];
+
+   //its morbin time
+    $doc = new DOMDocument();
+    libxml_use_internal_errors(true);
+    $doc->loadHTML($htmlContent);
+    libxml_use_internal_errors(false);
+    $senderName = $doc->getElementById('senderName');
+    $senderEmail = $doc->getElementById('senderEmail');
+    $subjTitle = $doc->getElementById('subjectTitle');
+    $messageBody = $doc->getElementById('messageBody');
+    $messageHeader = $doc->getElementById('messageHeader');
+    setInnerHTML($senderEmail, $email);
+    setInnerHTML($senderName, $name);
+    setInnerHTML($subjTitle, "Subject: " . $emailSubject);
+    setInnerHTML($messageBody, $message);
+    setInnerHTML($messageHeader, "New Message From " . $name);
+
+    $htmlContent = $doc->saveHTML();
 
    if (empty($name)) {
        $errors[] = 'Name is empty';
@@ -34,7 +62,7 @@ if (!empty($_POST)) {
        $bodyParagraphs = ["Name: {$name}", "Email: {$email}", "Message:", $message];
        $body = join(PHP_EOL, $bodyParagraphs);
 
-       if (mail($toEmail, $emailSubject, $body, $headers))  {
+       if (mail($toEmail, $emailSubject, $htmlContent, $headers))  {
 
            header('Location: ../contact-thank-you.html');
        } else {
