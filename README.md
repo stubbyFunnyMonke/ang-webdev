@@ -31,6 +31,7 @@
   - news: latest overhaul
   - news: announcements
   - email system
+  - admissions
 - Aliyah Villaraiz (previously sick)
   - curriculum
   - assets
