@@ -3,9 +3,9 @@
 ### TODO:
 - scrap calendar
 - consider scrapping facilities
+- consider scrapping blogs (according to the Aaron Escandor. Understand the dilemma?)
 - fix navigation and footer everywhere
 - php: try to send the message with html
-- new: make the articles of each announcement
 
 ### For reference:
 - Google Doc with links: https://docs.google.com/document/d/158xxSXJAJ6VYu2UB5OmQHgKwcXPlh5Gi1YUgq9iXi_w/edit
