@@ -1,11 +1,13 @@
 # Ang Midterms!
 
 ### TODO:
-- add pictures
-- about page: facilities
-- news: everything (see the g docs)
-- admissions
-- page polishing
+- find a good image for cecilia s sy and the other admins
+- fix administrators
+- scrap calendar
+- consider scrapping facilities
+- fix navigation and footer everywhere
+- php: try to send the message with html
+- new: make the articles of each announcement
 
 ### For reference:
 - Google Doc with links: https://docs.google.com/document/d/158xxSXJAJ6VYu2UB5OmQHgKwcXPlh5Gi1YUgq9iXi_w/edit
@@ -29,6 +31,8 @@
   - home page latest version
   - navigation bar & footer
   - php implementation
+  - news: latest overhaul
+  - news: announcements
 - Aliyah Villaraiz (sick)
   - curriculum
   - assets
