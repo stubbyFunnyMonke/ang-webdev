@@ -42,6 +42,7 @@
 - Deric Punzalan
   - main admissions page
   - another main admissions page
+  - well he DID help with admissions i guess
 - Aaliah Santos
   - home page
   
