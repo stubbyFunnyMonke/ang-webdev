@@ -99,6 +99,6 @@
 		  backDelay: 2000
 		});
 	  }
-    
+
 })(jQuery);
 
