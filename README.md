@@ -1,8 +1,6 @@
 # Ang Midterms!
 
 ### TODO:
-- find a good image for cecilia s sy and the other admins
-- fix administrators
 - scrap calendar
 - consider scrapping facilities
 - fix navigation and footer everywhere
@@ -33,18 +31,22 @@
   - php implementation
   - news: latest overhaul
   - news: announcements
-- Aliyah Villaraiz (sick)
+- Aliyah Villaraiz (previously sick)
   - curriculum
   - assets
+  - more assets
   - news: latest
+  - about: administrators
 - Zam Pallones
   - about: mission & vision
 - Deric Punzalan
   - main admissions page
   - another main admissions page
+  - well he DID help with admissions i guess
 - Aaliah Santos
   - home page
   
  
 ### special thanks:
 - si malantis
+- aaorn escandor
