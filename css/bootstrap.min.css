@@ -2273,7 +2273,7 @@ textarea.form-control-lg {
     .form-select:focus {
         border-color: #80dcc7;
         outline: 0;
-        box-shadow: 0 0 0 .25rem rgba(0,185,142,0.25)
+        box-shadow: 0 0 0 .25rem rgba(145,184,255,0.5)
     }
 
     .form-select[multiple], .form-select[size]:not([size="1"]) {
@@ -2345,7 +2345,7 @@ textarea.form-control-lg {
     .form-check-input:focus {
         border-color: #80dcc7;
         outline: 0;
-        box-shadow: 0 0 0 .25rem rgba(0,185,142,0.25)
+        box-shadow: 0 0 0 .25rem rgba(145,184,255,0.5)
     }
 
     .form-check-input:checked {
@@ -2435,11 +2435,11 @@ textarea.form-control-lg {
     }
 
         .form-range:focus::-webkit-slider-thumb {
-            box-shadow: 0 0 0 1px #f4f8ff,0 0 0 .25rem rgba(0,185,142,0.25)
+            box-shadow: 0 0 0 1px #f4f8ff,0 0 0 .25rem rgba(145,184,255,0.5)
         }
 
         .form-range:focus::-moz-range-thumb {
-            box-shadow: 0 0 0 1px #f4f8ff,0 0 0 .25rem rgba(0,185,142,0.25)
+            box-shadow: 0 0 0 1px #f4f8ff,0 0 0 .25rem rgba(145,184,255,0.5)
         }
 
     .form-range::-moz-focus-outer {
@@ -2849,7 +2849,7 @@ textarea.form-control-lg {
 
 .btn-check:focus + .btn, .btn:focus {
     outline: 0;
-    box-shadow: 0 0 0 .25rem rgba(0,185,142,0.25)
+    box-shadow: 0 0 0 .25rem rgba(145,184,255,0.5)
 }
 
 .btn:disabled, .btn.disabled, fieldset:disabled .btn {
@@ -5346,7 +5346,7 @@ textarea.form-control-lg {
 
     .btn-close:focus {
         outline: 0;
-        box-shadow: 0 0 0 .25rem rgba(0,185,142,0.25);
+        box-shadow: 0 0 0 .25rem rgba(145,184,255,0.5);
         opacity: 1
     }
 
