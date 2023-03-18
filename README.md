@@ -32,12 +32,17 @@
   - news: announcements
   - email system
   - admissions
+    - porting some of deric's stuff
+    - fixing
 - Aliyah Villaraiz (previously sick)
   - curriculum
   - assets
   - more assets
   - news: latest
   - about: administrators
+  - about: facilities
+    - info
+    - assets
 - Zam Pallones
   - about: mission & vision
 - Deric Punzalan
