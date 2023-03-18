@@ -34,6 +34,7 @@
   - admissions
     - porting some of deric's stuff
     - fixing
+  - debugging
 - Aliyah Villaraiz (previously sick)
   - curriculum
   - assets
@@ -43,6 +44,7 @@
   - about: facilities
     - info
     - assets
+  - debugging
 - Zam Pallones
   - about: mission & vision
 - Deric Punzalan
