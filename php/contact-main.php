@@ -17,7 +17,7 @@ if (!empty($_POST)) {
    $name = $_POST['name'];
    $email = $_POST['email'];
    $message = $_POST['message'];
-   $emailSubject = $_POST['subject'];
+   $subject = $_POST['subject'];
 
    //its morbin time
     $doc = new DOMDocument();
@@ -31,7 +31,7 @@ if (!empty($_POST)) {
     $messageHeader = $doc->getElementById('messageHeader');
     setInnerHTML($senderEmail, $email);
     setInnerHTML($senderName, $name);
-    setInnerHTML($subjTitle, "Subject: " . $emailSubject);
+    setInnerHTML($subjTitle, "Subject: " . $subject);
     setInnerHTML($messageBody, $message);
     setInnerHTML($messageHeader, "New Message From " . $name);
 
@@ -51,13 +51,13 @@ if (!empty($_POST)) {
        $errors[] = 'Message is empty';
    }
 
-   if (empty($emailSubject)) {
+   if (empty($subject)) {
        $errors[] = 'Subject is empty';
    }
 
    if (empty($errors)) {
        $toEmail = '2022sha01012@iacademy.edu.ph'; //change this later
-       $emailSubject = 'New email from your contact form';
+       $emailSubject = 'New email from the Contact Us Form: ' . $subject;
        $headers = ['From' => $email, 'Reply-To' => $email, 'Content-type' => 'text/html; charset=utf-8'];
        $bodyParagraphs = ["Name: {$name}", "Email: {$email}", "Message:", $message];
        $body = join(PHP_EOL, $bodyParagraphs);
@@ -74,6 +74,8 @@ if (!empty($_POST)) {
        $allErrors = join('<br/>', $errors);
        $errorMessage = "<p style='color: red;'>{$allErrors}</p>";
    }
+
+   echo $errorMessage;
 }
 
 ?>
