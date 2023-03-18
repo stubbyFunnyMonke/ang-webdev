@@ -1,10 +1,7 @@
 # Ang Midterms!
 
 ### TODO:
-- scrap calendar
-- consider scrapping facilities
-- consider scrapping blogs (according to the Aaron Escandor. Understand the dilemma?)
-- fix navigation and footer everywhere
+- finally we're done i think
 
 ### For reference:
 - Google Doc with links: https://docs.google.com/document/d/158xxSXJAJ6VYu2UB5OmQHgKwcXPlh5Gi1YUgq9iXi_w/edit
